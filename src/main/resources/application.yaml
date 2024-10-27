@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: PostgresPgAdmin
+  docker:
+    compose:
+      lifecycle-management: start_and_stop
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    generate-ddl: true
